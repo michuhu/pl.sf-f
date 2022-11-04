@@ -54,10 +54,11 @@ W tej chwili w `folder-out` mamy już pojedyncze wiadomości email, ale wszystki
 
 *-- (double dash) jest potrzebny, ponieważ niektóre pliki wiadomości zaczynają się od "-" (dash), co powoduje problem przy rozpakowywaniu
 
-Ok, mamy już pojedyncze maile. Niestety, formaty dat są bardzo różne co sprawia, że wątki są niemiłosiernie poszatkowane i wiadomości ciężko czytać w sensownej kolejności. Uruchamiamy mój skrypt, który znajduje się w [LINK DO GITHUB](githubgddgdgdg): 
+Ok, mamy już pojedyncze maile. Niestety, formaty dat są bardzo różne co sprawia, że wątki są niemiłosiernie poszatkowane i wiadomości ciężko czytać w sensownej kolejności. Uruchamiamy mój skrypt, który znajduje się w repo [eml-date-fix](https://github.com/michuhu/eml-date-fix): 
 
 `python eml-date-fix.py eml_folder`
-Jako wynik dostaniesz wewnątrz folderu eml_folder, subfolder /fixed, z przekonwertowanymi plikami.
+
+Jako wynik dostaniesz wewnątrz folderu `eml_folder`, subfolder `/fixed`, z przekonwertowanymi plikami.
 Ewentualne błędy będą zapisane w pliku `log.txt`. Jeśli go nie będzie, wszystko przebiegło bezproblemowo.
 
 ### Jak przekonwertować pojedyncze maile do jednego mboxa?
@@ -65,11 +66,14 @@ Posłużymy się gotowym skryptem eml2mbox jakich pełno, np. stąd: [emlToMbox]
 
 `$ ./emlToMbox.py inputdir/ output.mbox`
 
+Teraz możesz dodać pliki mbox do ulubionego programu pocztowego i radować się piękną kartą historii polskiego sf-f :)
+
 ## Dodatkowa notka:
 **Mozilla Thunderbird**
-* Po pierwsze, sprawdź ustawienia lokalizacji w swoim Thunderbird, bo to wpływa na format odczytywania daty, tj. np. polski dd/mm/YYYY, a amerykański mm/dd/yyyy (wciąż nie potrafię zrozumieć po co oni to robią?!)
+* Po pierwsze, sprawdź ustawienia lokalizacji w swoim Thunderbird, bo to wpływa na format odczytywania daty, tj. np. polski `dd/mm/YYYY`, a amerykański `mm/dd/yyyy` (wciąż nie potrafię zrozumieć czemu tak utrudniają sobie życie?!)
 * Jeśli importujesz pliki mbox do programu Mozilla Thunderbird używając import-export-tool, uważaj z jakim formatem daty je importujesz. 
 
 ## TO DO:
 * dodać mirrory mboxów
 * dodać mirrory polskiego usenet
+* własny skrypt eml2mbox (?)
