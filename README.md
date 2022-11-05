@@ -2,7 +2,7 @@
 (ENG) The archive of polish science-fiction and fantasy usenet groups
 
 Archiwum dwóch głównych polskich grup usenet o tematyce science-fiction & fantasy:
-* pl.listserv.sf-f.usenet
+* pl.listserv.sf-f
 * pl.rec.fantastyka.sf-f
 
 ## TL;DR
