@@ -2,8 +2,8 @@
 (ENG) The archive of polish science-fiction and fantasy usenet groups
 
 Archiwum dwóch głównych polskich grup usenet o tematyce science-fiction & fantasy:
-* pl.listserv.sf-f
-* pl.rec.fantastyka.sf-f
+* pl.listserv.sf-f (~86 tys. wiadomości)
+* pl.rec.fantastyka.sf-f (~663. tys wiadomości)
 
 ## TL;DR
 Linki do gotowych plików mbox znajdziecie poniżej:
