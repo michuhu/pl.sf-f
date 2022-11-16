@@ -29,7 +29,7 @@ Tak brzmiała pierwsza wiadomość opublikowana na polskiej grupiej fanów SF-F 
 Powodem zabawy w przywrócenie do życia tych zakurzonych danych, były wspominki na **pl.rec.fantastyka** oraz sentyment do *retro internetu*. Na dane źródłowe trafiłem tutaj: <https://usenet.nereid.pl>. Wielki szacunek dla kolegi [@wolfpld](https://github.com/wolfpld) za utrzymanie tak zacnego archiwum, nie tylko SF-F, ale **CAŁEGO (!)** polskiego usenetu.
 Podziękowania wędrują również do Szymona Sokoła, który dostarczył kilkaset pierwszych, brakujących postów.
 
-Niestety format tych danych i ich "spakowanie" okazały się nieco przykre dla użytkowników nietechincznych, na co zwracało uwagę wiele osób na grupach usenet. Wziąłem się tedy za robotę, porozozmawiałem z Bartoszem ([@wolfpld](https://github.com/wolfpld) jak wypakować dane (dzięki za pomoc i współpracę).
+Niestety format tych danych i ich "spakowanie" okazały się nieco przykre dla użytkowników nietechincznych, na co zwracało uwagę wiele osób na grupach usenet. Wziąłem się tedy za robotę, porozozmawiałem z Bartoszem [@wolfpld](https://github.com/wolfpld) jak wypakować dane (dzięki za pomoc i współpracę).
 Problemem okazały się formaty dat - szalone lata '90, braki standaryzacji, np. różne zapisy dat, błędne zapisy dat, nieistniejące już nazwy stref czasowych etc. Napisałem bardzo prosty skrypt w python, który ujednolica format daty, tak, aby wiadomości mogły być ustawione chronologicznie w wątkach. 
 
 ## TECHNIKALIA:
