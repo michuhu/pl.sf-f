@@ -10,7 +10,13 @@ Linki do gotowych plików mbox znajdziecie poniżej:
 
 [https://archive.org/details/pl.sf-f](https://archive.org/details/pl.sf-f)
 
-Przydałby się dodatkowy mirror tych danych. Gdybyś miał(a) miejsce u siebie, by przechować kopię tych mboxów (spakowane ~600 MB), daj mi proszę znać. 
+
+**MIRROR**:
+* UMAPA
+  * [listserv-sf-f.zip](https://www.umapa.pl/usenet/listserv-sf-f.zip)
+  * [sf-f.zip](https://www.umapa.pl/usenet/sf-f.zip)
+
+*Przydałby się dodatkowy mirror tych danych. Gdybyś miał(a) miejsce u siebie, by przechować kopię tych mboxów (spakowane ~600 MB), daj mi proszę znać.* 
 
 ## WPROWADZENIE:
 
